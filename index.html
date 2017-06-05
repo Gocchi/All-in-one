@@ -2,42 +2,67 @@
 <html>
 	<head>
 		<title>La MataDietas</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=1">
 		<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
+	<nav class="">
+		<div class="nav-wrapper">
+      <a href="#!" class="brand-logo center">La Mata Dietas</a>
+      	<
+	</nav>
 	<section class="container">
-		<div id="map">
-			
-		</div>
+		
 	</section>
 	<section class="container">
-		<div id="filter" class="row">
-			<input type="" name="">
-			<button></button>
+		<div class="row">
+			<div class="col s12">
+				<div id="map">
+					
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<form id="search-form" class="col s12">
+                 <div class="input-field ">
+                    <input id="search" type="search" placeholder="¿Quá se te antoja?">
+                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                    <i class="material-icons">close</i>
+                </div>
+        	</form>
 		</div>
 	</section>
 	<section id="list-restaurants" class="container">
 		<article class="item-restaurant">
-				<div class="col s12 m7">
-			    <div class="card horizontal">
-			      <div class="card-image">
-			        <img src="http://via.placeholder.com/250x250">
-			      </div>
-			      <div class="card-stacked">
-			        <div class="card-content">
-			          <h4>Nombre</h4>
-			          <h5>Dirección</h5>
-			          <p>Restaurant de Comida Mexicana</p>
-			          <div class="card-action">
-			          	<a href="#">Ver mapa</a>
-			          </div>
-			        </div>
-			      </div>
-			    </div>
-			  </div>
-			</div>
+				<div class="row">
+					<div class="col s12">
+					    <div class="card horizontal">
+					      <div class="card-image">
+					        <img src="http://via.placeholder.com/250x250">
+					      </div>
+					      <div class="card-stacked">
+					        <div class="card-content">
+					          <h4>Nombre</h4>
+					          <h6>Dirección</h6>
+					          <p>Restaurant de Comida Mexicana</p>
+					          <div class="card-action">
+					          	<a href="#">Ver mapa</a>
+					          </div>
+					        </div>
+					      </div>
+					    </div>
+					  </div>
+				  </div>
+				</div>
 		 </article>
 	</section>
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDn71479ZaeX7uTEQpJzmBnHg6sfkIbmaA"></script>
+    
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 	</body>
 </html>
